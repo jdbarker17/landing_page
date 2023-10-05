@@ -11,6 +11,21 @@
     box-sizing: border-box;  
 }
 
+.title{
+    color: var(--primary-color);
+    font-size: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.subtitle{
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
 .background {
     background-color: var(--background);
     display: grid;
@@ -27,8 +42,8 @@
 }
 
 .social-media-buttons li {
-    width: 150px;
-    height: 150px;
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
     cursor: pointer;
     display: grid;
@@ -64,4 +79,36 @@
     stroke: var(--primary-color);
     transform: rotateY(360deg);
     stroke-width: 1.75;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 800px;
+}
+
+.card {
+    position: relative;
+    left: 0px;
+    width: 80px;
+    height: 360px;
+    overflow: hidden;
+    background-color: var(
+        --background
+    );
+    transition: 0.4s
+        ease-in-out;
+    flex: 0.25;
+}
+
+.card img {
+    height: 360px;
+}
+
+.card:hover {
+    flex: 2;
+    font-weight: bold;
+    cursor: pointer;
 }
