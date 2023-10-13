@@ -16,6 +16,7 @@
     font-size: 120px;
     margin-bottom: 10px;
     margin-top: 10px;
+
     
 }
 
@@ -86,13 +87,13 @@
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    max-width: 800px;
+    max-width: 2000px;
 }
 
 .card {
     position: relative;
     left: 0px;
-    width: 80px;
+    width: 100px;
     height: 360px;
     overflow: hidden;
     background-color: var(
